@@ -2,7 +2,7 @@
     background-color: #333;
     overflow: hidden;
   }
-.li {
+.LI {
     2
     color: orange;
 
@@ -32,11 +32,7 @@
     color: black;
   }
   
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #4CAF50;
-    color: white;
-  }
+ 
 
   /* Bordered form */
 form {
@@ -45,7 +41,7 @@ form {
   
   /* Full-width inputs */
   input[type=text], input[type=password] {
-    width: 100%;
+    width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -61,7 +57,7 @@ form {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 100%;
+    width: 40%;
   }
   
   /* Add a hover effect for buttons */
@@ -73,3 +69,30 @@ form {
   .container {
     padding: 16px;
   }
+  body {
+    background-color: #eeeeee;
+}
+
+.h7 {
+    font-size: 0.8rem;
+}
+
+.gedf-wrapper {
+    margin-top: 0.97rem;
+}
+
+@media (min-width: 992px) {
+    .gedf-main {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .gedf-card {
+        margin-bottom: 2.77rem;
+    }
+}
+
+/**Reset Bootstrap*/
+.dropdown-toggle::after {
+    content: none;
+    display: none;
+}
